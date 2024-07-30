@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.uptc.controller.UserControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 7.728 s <<< FAILURE! - in com.uptc.controller.UserControllerIntegrationTest
+signup  Time elapsed: 1.993 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<500>
+	at com.uptc.controller.UserControllerIntegrationTest.signup(UserControllerIntegrationTest.java:99)
+
+updateUserEmail  Time elapsed: 1.284 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<500>
+	at com.uptc.controller.UserControllerIntegrationTest.updateUserEmail(UserControllerIntegrationTest.java:159)
+

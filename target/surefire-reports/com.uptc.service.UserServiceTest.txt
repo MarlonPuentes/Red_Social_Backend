@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.uptc.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in com.uptc.service.UserServiceTest
+shouldChangeCoverPhoto_whenCoverPhotoIsGiven  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "backend-url\upload-dir\photo-name.png"
+ but was: "backend-url/upload-dir/photo-name.png"
+	at com.uptc.service.UserServiceTest.shouldChangeCoverPhoto_whenCoverPhotoIsGiven(UserServiceTest.java:319)
+
+shouldChangeProfilePhoto_whenProfilePhotoIsGiven  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "backend-url\upload-dir\photo-name.png"
+ but was: "backend-url/upload-dir/photo-name.png"
+	at com.uptc.service.UserServiceTest.shouldChangeProfilePhoto_whenProfilePhotoIsGiven(UserServiceTest.java:289)
+

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.uptc.controller.PostControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.844 s <<< FAILURE! - in com.uptc.controller.PostControllerIntegrationTest
+deletePostShare  Time elapsed: 0.251 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: null
+ but was: com.uptc.entity.User@517c84fa
+	at com.uptc.controller.PostControllerIntegrationTest.deletePostShare(PostControllerIntegrationTest.java:440)
+
